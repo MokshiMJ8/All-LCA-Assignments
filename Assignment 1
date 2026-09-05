@@ -1,1 +1,67 @@
+# Creating a dictionary
+d={"a":10,"b":20,"c":30}
+print(d)
+
+#Add an element
+d["d"]=40
+print(d)
+
+#Update an element
+d["b"]=50
+print(d)
+
+#Delete an element
+del d["c"]
+print(d)
+
+#Get keys
+print(d.keys())
+
+#Get values
+print(d.values())
+
+#Get key-value pairs
+print(d.items())
+
+#Check keys
+print("a" in d)
+
+#Length
+print(len(d))
+
+
+
+
+
+
+
+
+#Creating a tuple
+t=(10,20,30,40,50)
+print(t)
+
+#Access
+print(t[0])
+
+#Slicing
+print(t[1:4])
+
+#Count
+print(t.count(20))
+
+#Index
+print(t.index(30))
+
+#Length
+print(len(t))
+
+#Concatenation
+t2=(60,70)
+print(t+t2)
+
+#Repetition
+print(t*2)
+
+#Check element
+print(30 in t)
 

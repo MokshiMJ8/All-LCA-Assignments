@@ -1,1 +1,16 @@
+a=int(input("Enter first side:"))
+b=int(input("Enter second side:"))
+c=int(input("Enter third side:"))
 
+def right_triangle(a,b,c):
+    if a>=b and a>=c:
+        return a*a==b*b+c*c
+    elif b>=a and b>=c:
+        return b*b==a*a+c*c
+    else:
+        return c*c==a*a+b*b
+
+if right_triangle(a,b,c):
+    print("It is a right-angled triangle")
+else:
+    print("It is not a right-angled triangle")
